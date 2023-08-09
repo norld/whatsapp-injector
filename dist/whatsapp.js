@@ -16,14 +16,15 @@ flexContainer.style.display = "flex";
 flexContainer.style.alignItems = "center";
 
 flexContainer.style.backgroundColor = "#0A939E";
-flexContainer.style.borderRadius = "12px";
-flexContainer.style.paddingTop = "8px";
-flexContainer.style.paddingBottom = "8px";
-flexContainer.style.paddingRight = "12px";
-flexContainer.style.paddingLeft = "12px";
+flexContainer.style.borderRadius = "30px";
+flexContainer.style.paddingTop = "12px";
+flexContainer.style.paddingBottom = "12px";
+flexContainer.style.paddingRight = "16px";
+flexContainer.style.paddingLeft = "16px";
 flexContainer.style.color = "#fff";
 flexContainer.style.fontFamily = "sans-serif";
 flexContainer.style.transition = "background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms";
+flexContainer.style.boxShadow = "0 8px 16px 0 rgba(10, 147, 158, 0.24)";
 flexContainer.addEventListener("mouseenter", function() {
   flexContainer.style.backgroundColor = "#09898c";
 });
@@ -42,7 +43,7 @@ const spanButton = document.createElement("span");
 spanButton.innerText = "WhatsApp";
 spanButton.id = "whatsapp-span";
 spanButton.style.paddingLeft = "8px";
-spanButton.style.fontSize = "16px";
+spanButton.style.fontSize = "14px";
 
 containerNumber.style.display = "none";
 containerText.style.display = "none";
