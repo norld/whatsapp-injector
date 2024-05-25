@@ -38,6 +38,7 @@ imgButton.src = "https://cdn.jsdelivr.net/gh/norld/whatsapp-injector@0.1.1/dist/
 imgButton.id = "whatsapp-button";
 imgButton.style.width = "24px";
 imgButton.style.height = "24px";
+imgButton.alt = "contact-whatsapp";
 
 const spanButton = document.createElement("span");
 spanButton.innerText = "WhatsApp";
